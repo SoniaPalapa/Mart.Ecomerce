@@ -1,0 +1,136 @@
+section,div{
+    font-size:20px;
+    padding:15px;
+   margin:5px;
+} 
+header{
+    display: flex;
+
+}
+header section{
+    flex: 1;
+}
+
+.HOME{
+    position: absolute;
+    left:0;
+    top: 4px;
+    z-index:-1;
+
+}
+div .box{
+    flex:auto;
+}
+ .heading{
+    text-align:center;
+     font-size:35px;
+}  
+.heading span{
+    background-color: rgb(238, 87, 0);
+    color: white;
+    font-size:35px;
+    text-align:center;
+}
+
+.icons{
+   line-height:1rem;
+}
+
+b{
+    color:blue;
+    font-size: 30px;
+    line-height: 1rem;
+}
+/* .HOME{ 
+    position: absolute;
+    top: 20px;
+    
+    transform: translate(-50%,-50%);
+
+/* } */
+.shp{
+    text-decoration: none;
+    border: 2px solid black;
+    padding:7px;
+}
+a{
+text-decoration: none;
+border: 1px solid black;
+padding:3px;
+}
+a:hover{
+background-color: orangered;
+color: white;
+}
+.features .box-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.products .box-container{
+    display: grid;
+    grid-template-columns:repeat(4,1fr); 
+}
+.productset1 .box-container1{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+}
+.review .box{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+}
+.circle-img{
+    border-radius:50%;
+  
+}
+.Blog .box{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+}
+footer{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    border:1px solid black;
+    background-color: beige;
+}
+ul{
+    font-size: 25px;
+    list-style-type: none;
+}
+h2{
+    color: blue;
+}
+footer .div{
+padding: 3px;
+text-align: center;
+color:white;
+}
+span{
+color: rgb(238, 87, 0);
+text-align: center;
+
+}
+/*  
+/* for mobile */
+@media only screen and (min-width:320px) and (max-width:768px) {
+    *{
+        width:100%;
+    }
+}
+/* for laptop  */
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    *{
+        width:100%;
+    }
+   
+}
+/* for large screens */
+@media only screen and (min-width:1024px) and (max-width:1440px) {
+    *{
+        width:100%;
+    }
+}
+@media only screen and (min-width:1440px) and (max-width:2560px) {
+    *{
+        width:100%;
+    }
+}
